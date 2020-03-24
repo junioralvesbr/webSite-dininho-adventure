@@ -1,0 +1,8 @@
+.text {
+    color: var(--color-first);
+    font-weight: bold;
+}
+
+.text.-light {
+    color: var(--color-light);
+}
