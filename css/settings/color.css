@@ -1,6 +1,10 @@
 :root {
+    --color-light: #FCFDFC;
     --color-zero: #ffffff;
     --color-first: #3D1132;
     --color-second: #73263D;
     --color-third: #050914;
+    --color-fourth: #7E5002;
+    --color-fifith: #e69405;
+    --color-sixth: #FAD121;
 }
