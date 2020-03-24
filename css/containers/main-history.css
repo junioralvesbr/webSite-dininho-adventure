@@ -1,0 +1,18 @@
+.main-history {
+    width: 100%;
+}
+
+.main-history > .title {
+    text-align: center;
+    font-size: 50px;
+    line-height: 36px;
+    padding-top: 20px;
+}
+
+.main-history > .text {
+    font-size: 24px;
+    line-height: 33px;
+    width: 960px;
+    text-align: center;
+    margin: 30px auto 0;
+}
