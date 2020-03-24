@@ -1,0 +1,21 @@
+.separator .separator-egg {
+    display: flex;
+    align-items: center;
+}
+
+.separator .separator-egg::before,
+.separator .separator-egg::after {
+    content: '';
+    width: 440px;
+    height: 4px;
+    background-color: var(--color-zero);
+    border-radius: 2px;
+}
+
+.separator .separator-egg::before {
+    margin-right: 20px;
+}
+
+.separator .separator-egg::after {
+    margin-left: 20px;
+}

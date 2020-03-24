@@ -1,0 +1,9 @@
+.separator > .container {
+    width: 70vw;
+    margin: 50px auto;
+}
+
+.separator .separator-egg {
+    display: flex;
+    justify-content: center;
+}
