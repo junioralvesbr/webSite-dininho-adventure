@@ -1,0 +1,15 @@
+.main-header > .container {
+    background: url('../../img/header.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.main-header .logo{
+    display: inline-block;
+    width: 800px;
+    height: 250px;
+    padding-top: 100px;
+}
