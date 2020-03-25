@@ -1,0 +1,16 @@
+.main-requirements .container {
+        width: 44vw;
+        margin: 0 auto;
+}
+
+.main-requirements > .container .subtitle {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.main-requirements > .container .text {
+    font-size: 1.3rem;
+    line-height: 33px;
+    width: 24vw;
+    margin: 30px auto 0;
+}
