@@ -6,6 +6,8 @@
     <title>Dininho Adventure</title>
 
     <link href="https://fonts.googleapis.com/css?family=Bungee|Nunito:400,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     
     <link rel="stylesheet" href="css/generic/reset.css">
     <link rel="stylesheet" href="css/settings/color.css">
@@ -19,6 +21,7 @@
     <link rel="stylesheet" href="css/containers/main-header.css">
     <link rel="stylesheet" href="css/containers/main-history.css">
     <link rel="stylesheet" href="css/containers/separator.css">
+    <link rel="stylesheet" href="css/containers/swiper-container.css">
 
 </head>
 <body>
@@ -48,7 +51,39 @@
                 </div>
             </div>
 
+            <!-- Swiper -->
+            <section class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <video controls autoplay muted loop>
+                            <source src="img/slider/video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="swiper-slide"><img src="img/slider/especial1.png" alt="image slide 1"></div>
+                    <div class="swiper-slide"><img src="img/slider/especial2.png" alt="image slide 2"></div>
+                    <div class="swiper-slide"><img src="img/slider/especial3.png" alt="image slide 3"></div>
+                    <div class="swiper-slide"><img src="img/slider/ice2.png" alt="image slide 4"></div>
+                    <div class="swiper-slide"><img src="img/slider/ice3.png" alt="image slide 5"></div>
+                    <div class="swiper-slide"><img src="img/slider/lava.png" alt="image slide 6"></div>
+                    <div class="swiper-slide"><img src="img/slider/lava2.png" alt="image slide 7"></div>
+                    <div class="swiper-slide"><img src="img/slider/lava3.png" alt="image slide 8"></div>
+                    <div class="swiper-slide"><img src="img/slider/ow_1.png" alt="image slide 9"></div>
+                    <div class="swiper-slide"><img src="img/slider/toy1.png" alt="image slide 10"></div>
+                    <div class="swiper-slide"><img src="img/slider/toy2.png" alt="image slide 11"></div>
+                    <div class="swiper-slide"><img src="img/slider/toy3.png" alt="image slide 12"></div>
+                    <div class="swiper-slide"><img src="img/slider/toy4.png" alt="image slide 13"></div>
+                    <div class="swiper-slide"><img src="img/slider/toy5.png" alt="image slide 14"></div>
+                    <div class="swiper-slide"><img src="img/slider/w3.png" alt="image slide 15"></div>
+                </div>
+            <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </section>
+
         </main>   
     </div>
+
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script src="js/slider.js"></script>
 </body>
 </html>
