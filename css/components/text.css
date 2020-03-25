@@ -1,8 +1,12 @@
 .text {
     color: var(--color-first);
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .text.-light {
     color: var(--color-light);
+}
+
+.text > span {
+    font-weight: 400;
 }
