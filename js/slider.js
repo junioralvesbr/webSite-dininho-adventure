@@ -4,7 +4,7 @@ const swiper = new Swiper('.swiper-container', {
   loop: true,
   spaceBetween: 1000,
   centeredSlides: true,
-  freeMode: true,
+  // freeMode: true,
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
