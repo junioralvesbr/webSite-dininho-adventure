@@ -3,5 +3,6 @@
 }
 
 .subtitle {
-    color: var(--color-second)
+    color: var(--color-second);
+    letter-spacing: 0.19em;
 }
