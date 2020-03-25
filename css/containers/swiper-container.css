@@ -1,6 +1,4 @@
 .swiper-container .swiper-slide {
-    width: 1200px;
-    height: 750px;
     display: flex;
     justify-content: center;
     align-items: center;

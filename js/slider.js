@@ -1,8 +1,8 @@
 const swiper = new Swiper('.swiper-container', {
-  slidesPerView: 2,
+  slidesPerView: 1,
   initialSlide: 0,
   loop: true,
-  spaceBetween: 1000,
+  // spaceBetween: 30,
   centeredSlides: true,
   // freeMode: true,
   pagination: {
