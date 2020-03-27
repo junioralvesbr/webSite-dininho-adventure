@@ -14,3 +14,45 @@
     width: 24vw;
     margin: 30px auto 0;
 }
+
+@media (max-width: 1500px) {
+    .main-requirements > .container .text {
+        width: 44vw;
+    }
+
+}
+
+
+@media (max-width: 950px) {
+    .main-requirements > .container {
+        width: 100%;
+        text-align: left;
+        margin: 0;
+    }
+
+    .main-requirements > .container .subtitle {
+        font-size: 2.5rem;
+    }
+
+    .main-requirements > .container .text {
+        font-size: 1.1rem;
+        width: 60vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-requirements > .container .subtitle {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .main-requirements > .container .text {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 425px) {
+   .main-requirements > .container .text {
+        width: 80vw;
+    }
+}

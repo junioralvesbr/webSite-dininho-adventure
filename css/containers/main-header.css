@@ -8,10 +8,31 @@
 }
 
 .main-header .logo{
-    width: 800px;
-    height: 250px;
+    width: 50%;
+    height: 25%;
     position: absolute;
     top: 16%;
     left: 50%;
     transform: translate(-50%);
+}
+
+@media (max-width: 350px) {
+    .main-header .image {
+        width: 150vw;
+        height: 36vh;
+    }
+
+    .main-header .logo {
+        height: 15%;
+    }
+}
+
+@media (max-width: 420px) {
+    .main-header .image {
+        height: 36vh;
+    }
+
+    .main-header .logo {
+        height: 20%;
+    }
 }

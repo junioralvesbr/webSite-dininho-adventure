@@ -12,7 +12,45 @@
 .main-history > .text {
     font-size: 24px;
     line-height: 33px;
-    width: 960px;
     text-align: center;
     margin: 30px auto 0;
+}
+
+@media (max-width: 1100px) {
+    .main-history > .title {
+        font-size: 40px;
+        padding: 25px 10px 0;
+    }
+
+    .main-history > .text {
+        font-size: 21px;
+        line-height: 28px;
+        padding: 0 35px;
+    }
+}
+
+@media (max-width: 700px) {
+    .main-history > .title {
+        font-size: 35px;
+        padding: 30px 10px 0;
+    }
+
+    .main-history > .text {
+        font-size: 18px;
+        line-height: 25px;
+        padding: 0 25px;
+    }
+}
+
+@media (max-width: 560px) {
+    .main-history > .title {
+        font-size: 30px;
+        padding: 30px 10px 0;
+    }
+
+    .main-history > .text {
+        font-size: 15px;
+        line-height: 20px;
+        padding: 0 15px;
+    }
 }

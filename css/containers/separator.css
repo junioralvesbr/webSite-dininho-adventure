@@ -7,3 +7,10 @@
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 700px) {
+    .image-egg {
+        width: 100px;
+    }
+
+}

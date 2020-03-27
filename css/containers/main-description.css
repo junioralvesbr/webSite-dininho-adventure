@@ -13,3 +13,36 @@
     line-height: 33px;
     margin-top: 30px;
 }
+
+@media (max-width: 1100px) {
+    .main-description > .container {
+        width: 44vw;
+    }
+}
+
+@media (max-width: 800px) {
+    .main-description > .container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-description > .container {
+        text-align: left;
+    }
+
+    .main-description > .container .subtitle {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .main-description > .container .text {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .main-description > .container .text {
+        font-size: 0.9rem;
+    }
+}
