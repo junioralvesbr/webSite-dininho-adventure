@@ -4,7 +4,18 @@
     align-items: center;
 }
 
+.swiper-container .swiper-button {
+    transform: translateY(-150%);
+    background-color: #fff;
+}
+
 .swiper-container .button-content {
     text-align: center;
     margin-top: 20px;
+}
+
+@media (max-width: 400px) {
+    .swiper-container > .swiper-wrapper .image {
+        width: 100%;
+    }
 }
