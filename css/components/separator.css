@@ -1,6 +1,7 @@
 .separator .separator-egg {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .separator .separator-egg::before,
