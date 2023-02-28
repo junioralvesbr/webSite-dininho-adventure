@@ -1,3 +1,8 @@
+.swiper-container {
+    position: relative;
+    overflow: hidden;
+}
+
 .swiper-container .swiper-slide {
     display: flex;
     justify-content: center;
@@ -6,7 +11,7 @@
 
 .swiper-container .swiper-button {
     transform: translateY(-150%);
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 10px;
 }
 
@@ -16,13 +21,13 @@
 }
 
 @media (max-width: 1500px) {
-    .swiper-container > .swiper-wrapper .image {
+    .swiper-container>.swiper-wrapper .image {
         width: 70%;
     }
 }
 
 @media (max-width: 400px) {
-    .swiper-container > .swiper-wrapper .image {
+    .swiper-container>.swiper-wrapper .image {
         width: 80%;
     }
 }
